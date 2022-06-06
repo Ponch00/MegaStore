@@ -1,0 +1,41 @@
+body{
+    font-family: 'Sora', sans-serif;
+    background-color: black;
+}
+.card{
+    background-color: white;
+    margin: 150px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 640px;
+    height: 264px;
+    border: none;
+    border-radius: 5px;
+}
+.phone p{
+    margin-left: 16px;
+    padding: 0 5px;
+    font-size: 14px;
+}
+.numb{
+    margin: 0 16px;
+    padding: 0 5px;
+    width: 608px;
+    height: 48px;
+    border: 1px solid #dadada;
+    border-radius: 5px;
+}
+.next{
+    width: 384px;
+    height: 48px;
+    margin: 5px auto;
+    border: none;
+    background-color: #232529;
+    border-radius: 5px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 200;
+}
