@@ -30,7 +30,7 @@ body{
 .next{
     width: 384px;
     height: 48px;
-    margin: 5px auto;
+    /*margin: 5px auto 48px;*/
     border: none;
     background-color: #232529;
     border-radius: 5px;
@@ -38,4 +38,39 @@ body{
     color: #ffffff;
     font-size: 20px;
     font-weight: 200;
+}
+
+.card2{
+    background-color: white;
+    margin: 150px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 640px;
+    height: 328px ;
+    border: none;
+    border-radius: 5px;
+}
+.confirm {
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.confirm input{
+    width: 48px;
+    height: 48px;
+    border-radius: 15px;
+    border: 1px solid #dadada;
+    text-align: center;
+}
+.card2 p{
+    width: 256px;
+    text-align: center;
+    color: #a9a9a9;
+}
+.card3{
+    width: 664px;
+    height: 576px;
+    background-color: white;
+    border-radius: 5px;
 }
